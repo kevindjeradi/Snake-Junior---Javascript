@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake Jr</title>
+		<style>
+			#canvas
+			{
+				background-image: linear-gradient(to right, #780206, #061161);
+			}
+			#btn
+			{
+				display: block;
+				text-align: center;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="Snake">
+			<div id="btnDiv">
+				<button id="btn" onclick="init()">Appuyer pour lancer le Jeu</button>
+			</div>
+			<div id="canvasDiv">
+				<canvas id="canvas" width="800px" height="500px"></canvas>
+			</div>
+			<script src="snake.js"></script>
+		</div>
+	</body>
+</html>
